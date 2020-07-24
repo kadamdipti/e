@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doc</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+	<div class="back">
+<div class="container">
+	<h1>corona virus</h1>
+	<h2>( covid 19 )</h2>
+	<h3 id="date">date time</h3>
+
+	<form autocomplete="off">
+		<input type="text" name="srch" id="srch" required list="countries" placeholder="Enter country name">
+		<datalist id="countries">
+			<option value="World">World</option>
+		</datalist>
+		<button>search</button>
+	</form>
+	
+<h2 id="name-country">The World</h2>
+<div class="content">
+	<div class="box confirmed">
+		<b>confirmed</b>
+		<h3>0</h3>
+	
+	</div>
+
+	<div class="box deaths">
+		<b>deaths</b>
+		<h3>0</h3>
+		
+	</div>
+
+	<div class="box recovered">
+		<p>recovered</p>
+		<h3>0</h3>
+	
+	</div>
+</div>
+</div>
+<div class="chart"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

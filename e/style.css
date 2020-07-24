@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	color: black;
+	 /*background: #D8BFD8;
+	*/
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.container{
+	min-width: 290px;
+	max-width: 900px;
+	margin:15px 10px;
+	text-align: center;
+	border: 1px solid #777;
+	border-radius: 5px;
+	
+
+}h1{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: goldenrod;
+}
+h2{
+	color: deeppink;
+}
+h3{
+	margin:  10px 0;
+}
+#date{
+	color: teal;
+}
+form input,
+form button{
+	width: 200px;
+	height: 35px;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	outline: none;
+	cursor: pointer;
+}
+form button{
+	width: 70px;
+
+}
+#main-country{
+	color: #555;
+	margin-top: : 20px;
+}
+.content{
+	margin: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.content .box{
+	min-width: 270px;
+	margin: 10px;
+	border: 1px solid #777;
+	padding: 15px;
+	letter-spacing: 2px;
+	background-color: 	sandybrown;
+}
+.content .box:hover{
+	background: #eee4;
+
+}
+.content .box b{
+	text-transform: uppercase;
+	opacity: 0.7;
+
+}
+.confirmed h3{
+	color: black;
+}
+.recovered h3{
+	color: black;
+}
+::-webkit-scrollbar{
+	display: none;
+}
